@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A curated collection of genuinely useful, interesting and accessible websites.">
+<title>Useful Websites</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K3CVC964BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-K3CVC964BK');
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#" aria-label="Useful Websites home">
+      <span class="brand-mark">✦</span>
+      <span class="brand-text"><strong>Useful Websites</strong><small id="brandTag">worth knowing</small></span>
+    </a>
+    <div class="controls">
+      <label class="language-picker"><span class="sr-only">Language</span>
+        <select id="languageSelect" aria-label="Language">
+          <option value="en">🇺🇸 English</option>
+          <option value="pt">🇧🇷 Português</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="fr">🇫🇷 Français</option>
+          <option value="de">🇩🇪 Deutsch</option>
+        </select>
+      </label>
+      <button id="themeToggle" class="icon-button" type="button">☀️</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow" id="eyebrow"></p>
+      <h1 id="heroTitle"></h1>
+      <p id="heroSubtitle"></p>
+    </div>
+    <button id="surpriseButton" class="surprise-button" type="button"><span>✦</span><span id="surpriseLabel"></span></button>
+  </section>
+
+  <section class="toolbar" aria-label="Website search and filters">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="searchInput" type="search" autocomplete="off">
+      <kbd>/</kbd>
+    </div>
+    <div id="categoryFilters" class="filters" role="tablist"></div>
+  </section>
+
+  <section class="surprise-result" id="surpriseResult" hidden>
+    <div class="surprise-inner">
+      <span class="surprise-eyebrow" id="surpriseEyebrow"></span>
+      <div class="surprise-content">
+        <div><h2 id="surpriseName"></h2><p id="surpriseDescription"></p></div>
+        <a id="surpriseLink" class="visit-button" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-heading">
+    <div><span class="section-kicker" id="sectionKicker"></span><h2 id="sectionTitle"></h2></div>
+    <span id="resultCount" class="result-count"></span>
+  </section>
+
+  <div id="cards" class="cards" aria-live="polite"></div>
+  <div id="emptyState" class="empty-state" hidden>
+    <div class="empty-icon">⌕</div><h3 id="emptyTitle"></h3><p id="emptyText"></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div>
+    <strong>Useful Websites</strong>
+    <span id="footerTagline"></span>
+  </div>
+  <div class="footer-right">
+    <span id="reviewed"></span>
+    <span class="footer-note" id="disclaimer"></span>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
