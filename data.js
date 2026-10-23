@@ -1340,6 +1340,29 @@ const SITES = [
     "searchTerms": []
   },
   {
+    "id": 68,
+    "name": "Roof Cost Data",
+    "url": "https://roofcostdata.com/roof-replacement-cost-calculator",
+    "category": "Everyday Tools",
+    "desc": {
+      "en": "Estimate a U.S. roof replacement budget from roof size, material, pitch, tear-off needs and location.",
+      "pt": "Estime um orçamento de substituição de telhado nos EUA com base no tamanho, material, inclinação, remoção e localização.",
+      "es": "Estima un presupuesto de reemplazo de techo en EE. UU. según tamaño, material, pendiente, retirada y ubicación.",
+      "fr": "Estimez un budget de remplacement de toiture aux États-Unis selon la surface, le matériau, la pente, la dépose et la localisation.",
+      "de": "Schätzen Sie die Kosten eines Dachaustauschs in den USA anhand von Größe, Material, Neigung, Abriss und Standort."
+    },
+    "tags": [
+      "Free",
+      "No Sign-Up",
+      "Browser-Based"
+    ],
+    "searchTerms": [
+      "roof replacement cost",
+      "roofing calculator",
+      "home improvement budget"
+    ]
+  },
+  {
     "id": 67,
     "name": "Zoomquilt",
     "url": "https://zoomquilt.org/",
