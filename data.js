@@ -1357,6 +1357,30 @@ const SITES = [
       "Interactive"
     ],
     "searchTerms": []
+  },
+  {
+    "id": 68,
+    "name": "Bucketlist.nl",
+    "url": "https://bucketlist.nl/",
+    "category": "Everyday Tools",
+    "desc": {
+      "en": "Discover travel and life-experience ideas on this Dutch-language site. An optional account saves your bucket list; external activities may cost money.",
+      "pt": "Descubra ideias de viagens e experiências neste site em neerlandês. Uma conta opcional guarda sua lista pessoal; atividades externas podem ter custos.",
+      "es": "Descubre ideas de viajes y experiencias en este sitio en neerlandés. Con una cuenta opcional guardas tu lista personal; las actividades externas pueden ser de pago.",
+      "fr": "Découvrez des idées de voyages et d’expériences sur ce site en néerlandais. Un compte facultatif permet d’enregistrer votre liste; les activités externes peuvent être payantes.",
+      "de": "Entdecke Reise- und Erlebnisideen auf dieser niederländischsprachigen Website. Ein optionales Konto speichert deine Wunschliste; externe Aktivitäten können Geld kosten."
+    },
+    "tags": [
+      "Free",
+      "Account Optional",
+      "Browser-Based",
+      "Interactive"
+    ],
+    "searchTerms": [
+      "bucket list",
+      "travel inspiration",
+      "Netherlands experiences"
+    ]
   }
 ];
 const CATEGORIES = ["AI & Automation", "Create & Edit", "Everyday Tools", "Gaming", "Learning", "Maps & Weather", "Privacy & Security", "Rabbit Holes"];

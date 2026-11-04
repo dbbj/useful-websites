@@ -3,7 +3,7 @@
 A static, multilingual directory of genuinely useful, interesting and accessible websites.
 
 ## Included
-- 67 curated websites across 8 categories
+- 68 curated websites across 8 categories
 - English, Portuguese, Spanish, French and German
 - Search across names, URLs, categories, tags, descriptions and search synonyms in all supported languages
 - Category filters
