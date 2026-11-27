@@ -1357,8 +1357,34 @@ const SITES = [
       "Interactive"
     ],
     "searchTerms": []
+  },
+  {
+    "id": 68,
+    "name": "StagePeek",
+    "url": "https://stagepeek.live/",
+    "category": "Maps & Weather",
+    "desc": {
+      "en": "Preview interactive 2D seating charts and 3D concert stage views across 201 venues with 1x–10x zoom.",
+      "pt": "Visualize mapas de assentos 2D interativos e vistas 3D de palcos em 201 casas de show com zoom de 1x a 10x.",
+      "es": "Explora mapas de asientos 2D interactivos y vistas 3D del escenario en 201 recintos con zoom de 1x a 10x.",
+      "fr": "Prévisualisez des plans de salle 2D interactifs et des vues 3D de scène dans 201 salles avec zoom 1x–10x.",
+      "de": "Interaktive 2D-Sitzpläne und 3D-Bühnenansichten für 201 Veranstaltungsorte mit 1x–10x-Zoom vorab prüfen."
+    },
+    "tags": [
+      "Free",
+      "No Sign-Up",
+      "Interactive",
+      "Browser-Based"
+    ],
+    "searchTerms": [
+      "concert seat view",
+      "seating chart",
+      "3d venue",
+      "stage view"
+    ]
   }
 ];
+
 const CATEGORIES = ["AI & Automation", "Create & Edit", "Everyday Tools", "Gaming", "Learning", "Maps & Weather", "Privacy & Security", "Rabbit Holes"];
 const CATEGORY_LABELS = {"en": {"AI & Automation": "AI & Automation", "Create & Edit": "Create & Edit", "Everyday Tools": "Everyday Tools", "Gaming": "Gaming", "Learning": "Learning", "Maps & Weather": "Maps & Weather", "Privacy & Security": "Privacy & Security", "Rabbit Holes": "Rabbit Holes"}, "pt": {"AI & Automation": "IA & Automação", "Create & Edit": "Criar & Editar", "Everyday Tools": "Ferramentas do Dia a Dia", "Gaming": "Jogos", "Learning": "Aprendizado", "Maps & Weather": "Mapas & Clima", "Privacy & Security": "Privacidade & Segurança", "Rabbit Holes": "Descobertas"}, "es": {"AI & Automation": "IA & Automatización", "Create & Edit": "Crear & Editar", "Everyday Tools": "Herramientas Cotidianas", "Gaming": "Juegos", "Learning": "Aprendizaje", "Maps & Weather": "Mapas y Clima", "Privacy & Security": "Privacidad y Seguridad", "Rabbit Holes": "Descubrimientos"}, "fr": {"AI & Automation": "IA & Automatisation", "Create & Edit": "Créer & Modifier", "Everyday Tools": "Outils du Quotidien", "Gaming": "Jeux", "Learning": "Apprentissage", "Maps & Weather": "Cartes & Météo", "Privacy & Security": "Confidentialité & Sécurité", "Rabbit Holes": "Découvertes"}, "de": {"AI & Automation": "KI & Automatisierung", "Create & Edit": "Erstellen & Bearbeiten", "Everyday Tools": "Alltagswerkzeuge", "Gaming": "Gaming", "Learning": "Lernen", "Maps & Weather": "Karten & Wetter", "Privacy & Security": "Datenschutz & Sicherheit", "Rabbit Holes": "Entdeckungen"}};
 const TAG_LABELS = {"Free": {"en": "Free", "pt": "Grátis", "es": "Gratis", "fr": "Gratuit", "de": "Kostenlos"}, "Free Plan": {"en": "Free Plan", "pt": "Plano Grátis", "es": "Plan Gratis", "fr": "Formule gratuite", "de": "Kostenloser Plan"}, "Free Preview": {"en": "Free Preview", "pt": "Prévia Grátis", "es": "Vista previa gratis", "fr": "Aperçu gratuit", "de": "Kostenlose Vorschau"}, "No Sign-Up": {"en": "No Sign-Up", "pt": "Sem Cadastro", "es": "Sin Registro", "fr": "Sans inscription", "de": "Ohne Anmeldung"}, "Privacy": {"en": "Privacy", "pt": "Privacidade", "es": "Privacidad", "fr": "Confidentialité", "de": "Datenschutz"}, "Open Source": {"en": "Open Source", "pt": "Open Source", "es": "Código Abierto", "fr": "Open Source", "de": "Open Source"}, "Browser-Based": {"en": "Browser-Based", "pt": "No Navegador", "es": "En el Navegador", "fr": "Dans le navigateur", "de": "Browserbasiert"}, "Account Required": {"en": "Account Required", "pt": "Exige Conta", "es": "Requiere Cuenta", "fr": "Compte requis", "de": "Konto erforderlich"}, "Account Optional": {"en": "Account Optional", "pt": "Conta Opcional", "es": "Cuenta Opcional", "fr": "Compte facultatif", "de": "Konto optional"}, "Account Required for Download": {"en": "Account Required for Download", "pt": "Conta para Baixar", "es": "Cuenta para Descargar", "fr": "Compte pour télécharger", "de": "Konto zum Herunterladen"}, "AI": {"en": "AI", "pt": "IA", "es": "IA", "fr": "IA", "de": "KI"}, "Interactive": {"en": "Interactive", "pt": "Interativo", "es": "Interactivo", "fr": "Interactif", "de": "Interaktiv"}, "Security": {"en": "Security", "pt": "Segurança", "es": "Seguridad", "fr": "Sécurité", "de": "Sicherheit"}, "Media": {"en": "Media", "pt": "Mídia", "es": "Medios", "fr": "Média", "de": "Medien"}, "Shopping Tool": {"en": "Shopping Tool", "pt": "Compras", "es": "Compras", "fr": "Achats", "de": "Shopping"}, "Live Data": {"en": "Live Data", "pt": "Dados ao Vivo", "es": "Datos en Vivo", "fr": "Données en direct", "de": "Live-Daten"}, "Archive": {"en": "Archive", "pt": "Arquivo", "es": "Archivo", "fr": "Archive", "de": "Archiv"}, "File Sharing": {"en": "File Sharing", "pt": "Compartilhamento", "es": "Compartir Archivos", "fr": "Partage de fichiers", "de": "Dateifreigabe"}, "Database": {"en": "Database", "pt": "Banco de Dados", "es": "Base de Datos", "fr": "Base de données", "de": "Datenbank"}, "Price Tracking": {"en": "Price Tracking", "pt": "Histórico de Preços", "es": "Seguimiento de Precios", "fr": "Suivi des prix", "de": "Preisverfolgung"}, "Education": {"en": "Education", "pt": "Educação", "es": "Educación", "fr": "Éducation", "de": "Bildung"}, "Open Access": {"en": "Open Access", "pt": "Acesso Aberto", "es": "Acceso Abierto", "fr": "Accès libre", "de": "Offener Zugang"}, "Knowledge Tool": {"en": "Knowledge Tool", "pt": "Conhecimento", "es": "Conocimiento", "fr": "Connaissances", "de": "Wissenswerkzeug"}, "Language": {"en": "Language", "pt": "Idiomas", "es": "Idiomas", "fr": "Langues", "de": "Sprachen"}};
